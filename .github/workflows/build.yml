@@ -19,11 +19,13 @@ jobs:
 
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v3
+        with:
+          gradle-version: '8.1.1'
 
       - name: Grant execute permission
         run: chmod +x gradlew
 
-      - name: Build
+      - name: Build with Gradle Wrapper
         run: ./gradlew build --no-daemon
 
       - name: Upload JAR
