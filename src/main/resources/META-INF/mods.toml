@@ -1,0 +1,9 @@
+modLoader="javafml"
+loaderVersion="[51,)"
+license="MIT"
+
+[[mods]]
+modId="mcpvpkits"
+version="1.0.0"
+displayName="MCPvP Kits"
+description='''Server-sided kit GUI for MCPVP practice modes.'''
